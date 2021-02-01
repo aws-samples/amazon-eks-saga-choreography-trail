@@ -1,0 +1,31 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Trail microservice to list status of orders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git-codecommit.ap-south-1.amazonaws.com/v1/repos/eks-saga-trail"
+  },
+  "keywords": [
+    "amazon-eks",
+    "kubernetes",
+    "nodejs",
+    "docker",
+    "microservice",
+    "trail"
+  ],
+  "author": "Nagesh Subrahmanyam",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.814.0",
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.32",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "winston": "^3.3.3"
+  }
+}
