@@ -21,7 +21,7 @@
   "author": "Nagesh Subrahmanyam",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.814.0",
+    "aws-sdk": "^2.1354.0",
     "express": "^4.17.1",
     "moment-timezone": "^0.5.32",
     "morgan": "^1.10.0",
